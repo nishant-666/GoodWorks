@@ -2,6 +2,10 @@
   "homepage": "http://nishant-666.github.io/GoodWorks",
   "name": "goodworks",
   "version": "0.1.0",
+  "engines": {
+    "yarn": "1.22.0",
+    "node": "14.5.0"
+  },
   "private": true,
   "dependencies": {
     "@babel/helpers": "^7.10.4",

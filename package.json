@@ -36,5 +36,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/nishant-666/GoodWorks.git",
+  "author": "nishant666 <nishants440@gmail.com>",
+  "license": "MIT"
 }

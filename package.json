@@ -1,0 +1,40 @@
+{
+  "homepage": "http://nishant-666.github.io/GoodWorks",
+  "name": "goodworks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/helpers": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "add": "^2.0.6",
+    "emoji-mart": "^3.0.0",
+    "firebase": "^7.19.0",
+    "gh-pages": "^3.1.0",
+    "md5": "^2.3.0",
+    "mime-types": "^2.1.27",
+    "moment": "^2.27.0",
+    "now": "^20.0.0",
+    "react": "^16.4.1",
+    "react-avatar-editor": "11.0.9",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^1.1.5",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1",
+    "uuid": "^8.3.0",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

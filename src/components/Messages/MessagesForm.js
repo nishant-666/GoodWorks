@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Segment, Button, Input } from 'semantic-ui-react'
 import firebase from '../../firebase'
 import FileModal from './FileModal'
-import uuidv4 from "uuid/v3";
+import uuidv4 from "uuid/v4";
 import ProgressBar from './ProgressBar'
 import { Picker, emojiIndex } from "emoji-mart";
 import "emoji-mart/css/emoji-mart.css";

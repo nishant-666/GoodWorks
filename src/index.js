@@ -30,7 +30,7 @@ class Root extends React.Component {
       if (user) {
         // console.log(user);
         this.props.setUser(user);
-        this.props.history.push("/");
+        this.props.history.push("/App");
       } else {
         this.props.history.push("/register");
         this.props.clearUser();
@@ -43,7 +43,7 @@ class Root extends React.Component {
       <Spinner />
     ) : (
       <Switch>
-        <Route exact path="/" component={App} />
+        <Route exact path="/App" component={App} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
       </Switch>
